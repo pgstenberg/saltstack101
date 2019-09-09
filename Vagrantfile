@@ -17,7 +17,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         "007-pillars",
         "008-templatedstates",
         "101-orchestration"]
-    task_id = 7
+    task_id = 0
 
     def configure_vbox_provider(config, name, cpu=1, memory=1024)
         config.vm.provider :virtualbox do |vb|
